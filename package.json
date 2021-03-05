@@ -11,10 +11,7 @@
     "test": "npm run jshint && npm run test-node",
     "test-node": "mocha tests/test.*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gr2m/couchdb-excel-import"
-  },
+  "repository": "github:gr2m/couchdb-excel-import",
   "keywords": [
     "couchdb",
     "excel",
@@ -23,9 +20,6 @@
   ],
   "author": "Gregor Martynus",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gr2m/couchdb-excel-import/issues"
-  },
   "homepage": "http://gr2m.github.com/couchdb-excel-import",
   "devDependencies": {
     "chai": "^1.10.0",
